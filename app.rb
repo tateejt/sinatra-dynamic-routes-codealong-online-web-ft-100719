@@ -20,7 +20,6 @@ class App < Sinatra::Base
   end
   
   get '/multiple/:num1/:num2' do 
-    @user_name = params[:num1, :num2]
-    "#{user_name}"
+    "#{params[:num1} "
   end
 end
